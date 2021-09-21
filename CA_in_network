@@ -1,0 +1,48 @@
+{
+  "reporting_entity_name": "Delta Dental of California",
+  "reporting_entity_type": "Group Dental Plan",
+  "plan_name": "Kaiser/Delta Dental of California",
+  "plan_id_type": "EIN",
+  "plan_id": "WAITING",
+  "plan_market_type": "Group",
+  "last_updated_on": "2021-09-23",
+  "version": "1.0.0",
+  "in_network": [{ 
+    "negotiation_arrangement": "FFS",
+    "name": "Dental",
+    "billing_code_type": "CDT",
+    "billing_code_type_version": "2022",
+    "billing_code": "D0140",
+    "description": "LIMITED ORAL EVALUATION - PROBLEM FOCUSED",
+    "negotiated_rates": [{
+      "providers": ["PRV509986790"],
+      "tin": "WAITING",
+      "negotiated_price": {
+        "negotiated_type": "Negotiated",
+        "negotiated_rate": 20000.00,
+        "expiration_date": "9999-12-31",
+        "service_code": ["99"]
+      }
+    },{
+     "providers": ["WAITING", "WAITING", "WAITING", "WAITING", "WAITING"],
+      "tin": "WAITING",
+      "negotiated_price": {
+        "negotiated_type": "Negotiated",
+        "negotiated_rate": 20000.00,
+        "expiration_date": "9999-12-31",
+        "service_code": ["99"]
+      }
+    }],
+    "covered_services": [{
+      "billing_code_type": "CDT",
+      "billing_code_type_version": "2022",
+      "billing_code": "D0140",
+      "description": "LIMITED ORAL EVALUATION - PROBLEM FOCUSED"
+    },{
+      "billing_code_type": "CDT",
+      "billing_code_type_version": "2022",
+      "billing_code": "D0140",
+      "description": "LIMITED ORAL EVALUATION - PROBLEM FOCUSED"
+    }]
+  }]
+}

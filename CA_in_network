@@ -15,34 +15,23 @@
     "billing_code": "D0140",
     "description": "LIMITED ORAL EVALUATION - PROBLEM FOCUSED",
     "negotiated_rates": [{
-      "providers": ["PRV509986790"],
-      "tin": "WAITING",
+      "providers": ["1174540637"],
+      "tin": "010427553",
       "negotiated_price": {
         "negotiated_type": "Negotiated",
-        "negotiated_rate": 20000.00,
+        "negotiated_rate": 100.00,
         "expiration_date": "9999-12-31",
         "service_code": ["99"]
       }
     },{
-     "providers": ["WAITING", "WAITING", "WAITING", "WAITING", "WAITING"],
-      "tin": "WAITING",
+     "providers": ["1629252796"],
+      "tin": "010555926",
       "negotiated_price": {
         "negotiated_type": "Negotiated",
-        "negotiated_rate": 20000.00,
+        "negotiated_rate": 150.00,
         "expiration_date": "9999-12-31",
         "service_code": ["99"]
       }
-    }],
-    "covered_services": [{
-      "billing_code_type": "CDT",
-      "billing_code_type_version": "2022",
-      "billing_code": "D0140",
-      "description": "LIMITED ORAL EVALUATION - PROBLEM FOCUSED"
-    },{
-      "billing_code_type": "CDT",
-      "billing_code_type_version": "2022",
-      "billing_code": "D0140",
-      "description": "LIMITED ORAL EVALUATION - PROBLEM FOCUSED"
     }]
   }]
 }
